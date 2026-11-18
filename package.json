@@ -1,0 +1,15 @@
+{
+  "name": "day-11-mockserver",
+  "version": "1.0.0",
+  "description": "Dynamic HTTP API Mocking & Contract Studio with Vaporwave Dream Theme",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test tests/*.test.js",
+    "deploy": "npm run build && firebase deploy --only hosting"
+  },
+  "author": "sgowdavivek <sgowdavivek@gmail.com>",
+  "license": "MIT"
+}
